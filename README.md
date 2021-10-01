@@ -1,0 +1,2 @@
+# StudyingRussiaTestProject
+StudyingRussia(TestProject)
