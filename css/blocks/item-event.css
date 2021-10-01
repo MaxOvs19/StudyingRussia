@@ -1,0 +1,81 @@
+/*  item-event */
+.blockText {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 24px 0 24px;
+}
+.blockText h3 {
+  color: #00aeef;
+  font-size: 19px;
+  line-height: 24px;
+  padding-bottom: 15px;
+}
+.blockText p {
+  font-size: 18px;
+  line-height: 24px;
+  padding-bottom: 15px;
+}
+
+.btnBack:hover {
+  text-decoration: underline;
+}
+.btnForward:hover {
+  text-decoration: underline;
+}
+.btnBack,
+.btnForward {
+  display: flex;
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+
+  background: #fff;
+  border: none;
+  align-items: center;
+  cursor: pointer;
+}
+.btnBack {
+  position: absolute;
+  left: 34px;
+  bottom: 42px;
+}
+.btnBack--passiv {
+  color: #b2b2b2;
+}
+.btnBack--activ {
+  color: #00aeef;
+}
+.btnForward--active {
+  color: #00aeef;
+}
+.btnForward--passiv {
+  color: #b2b2b2;
+}
+.btnForward {
+  position: absolute;
+  right: 34px;
+  bottom: 42px;
+}
+.itemContent {
+  position: relative;
+  display: flex;
+
+  width: 357px;
+  height: 530px;
+
+  font-size: 18px;
+  line-height: 24px;
+
+  background: #ffffff;
+  border: 1px solid #00aeef;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.blockText-none {
+  display: none !important;
+}
+.blockText-none {
+  display: none !important;
+}

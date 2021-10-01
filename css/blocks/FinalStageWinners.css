@@ -1,0 +1,146 @@
+/* Selaction Final Stage Winners */
+
+.winners-container {
+  display: flex;
+  flex-direction: column;
+}
+.winners-slider {
+  position: relative;
+  font-family: TT Hoves;
+  font-style: normal;
+  margin-top: 40px;
+}
+.participant-container {
+  font-family: TT Hoves;
+  font-style: normal;
+  margin-top: 40px;
+}
+.winners-slider h2,
+.participant-container h2,
+.winners-container h2 {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #343434;
+}
+
+.title-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title-item a {
+  display: flex;
+  color: rgba(0, 174, 239, 1);
+}
+.title-item p {
+  padding-right: 15px;
+}
+.content-block {
+  margin-top: 42px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-item {
+  margin-right: 35px;
+  display: flex;
+  flex-direction: column;
+}
+.videoIcon {
+  position: absolute;
+  cursor: pointer;
+  margin-top: 69px;
+  margin-left: 147px;
+}
+.video__text {
+  margin-top: 15px;
+  display: flex;
+  height: 45px;
+  border-bottom: 1px solid #00aeef;
+}
+
+.icon-like1,
+.icon-like2,
+.icon-like3 {
+  cursor: pointer;
+  background-image: url(winers-slider/like.png);
+  height: 18px;
+  width: 18px;
+  border: none;
+  margin-right: 10px;
+}
+.video__text span {
+  color: #00aeef;
+}
+.video__text h4 {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 20px;
+
+  color: #343434;
+}
+
+.video-item p {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #343434;
+}
+
+/* Слайдер */
+
+.arrow {
+  height: 32px;
+  position: absolute;
+  left: -28px;
+  top: 162px;
+  z-index: 3;
+}
+.arrow2 {
+  height: 32px;
+  position: absolute;
+  right: -28px;
+  top: 162px;
+  transform: rotate(180deg);
+  z-index: 3;
+}
+.arrow:hover {
+  transition: 0.9s;
+  background-color: rgba(0, 0, 0, 0.164);
+}
+.arrow2:hover {
+  transition: 0.9s;
+  background-color: rgba(0, 0, 0, 0.164);
+}
+.arrow-slider {
+  cursor: pointer;
+  background: url(winers-slider/arrow-slider.png);
+  height: 32px;
+  width: 18px;
+  border: none;
+}
+.slide {
+  flex-direction: row;
+  display: flex;
+}
+.slider-line {
+  width: 3414px;
+  height: 300px;
+  display: flex;
+  position: relative;
+  transition: all ease 1s;
+}
+.slider {
+  margin-top: 42px;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}

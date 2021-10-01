@@ -1,0 +1,43 @@
+/*  Selaction project team */
+.project-team-block,
+.row-block,
+.img-block {
+  display: flex;
+  font-family: TT Hoves;
+  font-style: normal;
+  color: #343434;
+}
+.project-team-block h2 {
+  font-size: 36px;
+}
+.project-team-block h3 {
+  margin-top: 40px;
+  font-size: 24px;
+}
+.project-team-block {
+  margin-top: 150px;
+  flex-direction: column;
+  margin-bottom: 200px;
+}
+.row-block {
+  margin-top: 40px;
+  justify-content: space-around;
+}
+.row-block h4 {
+  font-size: 24px;
+  line-height: 32px;
+}
+.img-block {
+  flex-direction: column;
+  align-items: center;
+  width: 240px;
+  text-align: center;
+}
+.row-block p {
+  margin-top: 12px;
+  font-size: 18px;
+  line-height: 24px;
+}
+.img-block img {
+  width: 60%;
+}

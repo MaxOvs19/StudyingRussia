@@ -1,0 +1,47 @@
+/* Header options */
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  background-color: #00baff;
+}
+.header-container {
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  height: 72px;
+  position: relative;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+.header-logo {
+  display: flex;
+}
+.img-logo {
+  height: 55%;
+  cursor: pointer;
+}
+.navigation {
+  display: flex;
+}
+.navigation__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navigation__item li {
+  list-style-type: none;
+}
+.item__link {
+  padding-left: 42px;
+  color: white;
+
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+.item__link:hover {
+  text-decoration: underline;
+}

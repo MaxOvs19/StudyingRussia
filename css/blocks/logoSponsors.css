@@ -1,0 +1,52 @@
+/* Selection - logo sponsors */
+.logo-sponsor {
+  background: url(../../static/img/header-background.png);
+  background-size: cover;
+  height: 100%;
+}
+.container-logo {
+  display: flex;
+  height: 758px;
+}
+.container-body {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+
+  margin-top: 121px;
+  width: 1138px;
+  height: 489px;
+  flex-wrap: wrap;
+}
+.body-top {
+  display: flex;
+}
+.body-top p {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 40px;
+  color: #00aeef;
+
+  padding-top: 65px;
+  padding-left: 74px;
+  line-height: 1.2;
+}
+.body-top img {
+  width: 333px;
+  height: 178px;
+  padding-right: 103px;
+  padding-top: 46px;
+}
+.body-center {
+  display: flex;
+  padding-left: 97px;
+  align-items: center;
+}
+.body-bottom {
+  display: flex;
+  justify-content: space-around;
+  width: 990px;
+  padding-left: 23px;
+}

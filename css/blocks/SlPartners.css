@@ -1,0 +1,19 @@
+.partners-block {
+  display: flex;
+  flex-direction: column;
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 40px;
+
+  color: #343434;
+}
+.block-img img {
+  padding-right: 115px;
+  cursor: pointer;
+}
+.block-img {
+  margin-top: 25px;
+  margin-bottom: 120px;
+}

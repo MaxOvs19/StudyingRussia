@@ -1,0 +1,63 @@
+/* Selection  Time-space */
+.event-block {
+  display: flex;
+  margin-top: 120px;
+  flex-direction: column;
+  margin-bottom: 133px;
+}
+.title-block {
+  display: flex;
+  margin-bottom: 45px;
+
+  font-family: TT Hoves;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 42px;
+
+  color: #343434;
+}
+.collum-item {
+  margin-top: 21px;
+  display: flex;
+  height: 174px;
+
+  background: #ffffff;
+  box-shadow: 0px 14px 35px rgba(0, 174, 239, 0.14);
+  border-radius: 26px;
+
+  align-items: center;
+  position: relative;
+}
+.collum-item p {
+  font-family: Proxima Nova Rg;
+  font-size: 30px;
+  line-height: 32px;
+  color: #000000;
+}
+.item-data {
+  margin-left: 25px;
+  margin-right: 35px;
+  justify-content: center;
+  display: flex;
+  background: url(../../static/img/eventАrrow.png) no-repeat;
+  width: 158px;
+  height: 130px;
+  align-items: center;
+}
+.item-data p {
+  display: flex;
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  color: rgba(0, 164, 243, 1);
+
+  text-align: center;
+  padding-right: 15px;
+}
+.img-icon {
+  position: absolute;
+  right: 48px;
+  top: 63px;
+}

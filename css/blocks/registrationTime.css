@@ -1,0 +1,127 @@
+/* Selection - registration-time  */
+.block-registr {
+  margin-top: 130px;
+  display: flex;
+
+  background-image: url(../../static/img/bckgd-registration.png);
+  height: 308px;
+  width: 100%;
+}
+.registr,
+.timeToEnd,
+.numberToRegistr {
+  display: flex;
+}
+.registr {
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 65px;
+}
+.btn-registr {
+  margin-top: 25px;
+  width: 251px;
+  height: 52px;
+
+  border: 0.1px solid transparent;
+  background: #ffffff;
+  border-radius: 27px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  transition: 0.9s;
+}
+.btn-registr:hover {
+  cursor: pointer;
+  background: #fcfcfc;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+.registr p {
+  width: 292px;
+  height: 85px;
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.timeToEnd {
+  display: flex;
+  width: 450px;
+  flex-direction: column;
+}
+.time-text p,
+.dataName p,
+.numberToRegistr p {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.time-text {
+  padding-top: 71px;
+  justify-content: center;
+  display: flex;
+  height: 25px;
+}
+.timer {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer span {
+  display: flex;
+  color: #fff;
+  width: 48px;
+  height: 25px;
+  font-size: 25px;
+  justify-content: center;
+}
+.dataName {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-evenly;
+}
+.days,
+.hours,
+.minutes {
+  border: 0.5px solid #fff;
+  padding: 15px;
+  border-radius: 45%;
+  font-family: TT Hoves;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+/*  numberToRegistr */
+.numberToRegistr {
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+.countUsers {
+  width: 73px;
+  height: 34.7px;
+  margin: 38px 0px 18px 0px;
+  border: 0.5px solid #fff;
+  padding: 15px;
+  border-radius: 45%;
+}
+.count {
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-family: TT Hoves;
+  font-style: normal;
+  font-size: 31px;
+  line-height: 24px;
+}

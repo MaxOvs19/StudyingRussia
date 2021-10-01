@@ -1,0 +1,57 @@
+/* Selaction Experts */
+.experts {
+  display: flex;
+
+  height: 740px;
+}
+.item__img,
+.item__title,
+.item__text,
+.experts-item,
+.container-experts,
+.selaction-experts {
+  display: flex;
+  font-family: TT Hoves;
+  font-style: normal;
+}
+.selaction-experts {
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+.experts-item {
+  flex-direction: column;
+  width: 355px;
+  height: 484px;
+  box-shadow: 2px 6px 25px rgba(0, 56, 76, 0.15);
+  border-radius: 26px;
+  margin-right: 37px;
+  transition: 0.8s;
+}
+.experts-item:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.9s;
+  cursor: pointer;
+}
+.item__img {
+  margin-bottom: 26px;
+}
+.item__title {
+  width: 214px;
+  height: 73px;
+  border-bottom: 1px solid #00aeef;
+  margin-left: 40px;
+
+  font-size: 19px;
+  line-height: 28px;
+  color: #343434;
+}
+.item__text {
+  width: 222px;
+  height: 80px;
+  margin-top: 14px;
+  padding-left: 40px;
+
+  font-size: 16px;
+  line-height: 20px;
+  color: #343434;
+}

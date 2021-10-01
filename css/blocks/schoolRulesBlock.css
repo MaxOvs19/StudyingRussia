@@ -1,0 +1,86 @@
+/* Selaction School Rules */
+
+.schoolRul-img,
+.schoolRul-block,
+.link-block,
+.schoolRul-container {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: normal;
+  display: flex;
+  flex-direction: row;
+}
+.schoolRul-container {
+  margin-top: 100px;
+}
+.schoolRul-block h2 {
+  text-align: justify;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  color: #343434;
+}
+.schoolRul-block h4 {
+  text-align: justify;
+  margin-top: 26px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+
+  color: #343434;
+}
+.schoolRul-block p {
+  margin-top: 26px;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 24px;
+  color: #343434;
+}
+.schoolRul-img {
+  margin-top: 35px;
+
+  height: 75%;
+}
+.schoolRul-block {
+  flex-direction: column;
+  margin-left: 35px;
+}
+.ul-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 33px;
+}
+.list {
+  display: flex;
+  width: 250px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 149%;
+  color: #00aeef;
+  flex-grow: 1;
+  margin-bottom: 26px;
+}
+.list img {
+  width: 8%;
+  height: 20%;
+  margin: 6px 3px 0 0;
+}
+
+.link-block {
+  margin-top: 15px;
+  align-items: flex-end;
+  font-size: 20px;
+}
+.link-block img {
+  margin-left: 7px;
+  height: 71%;
+  width: 2%;
+
+  transform: rotate(90deg);
+}
+.link-block h6 {
+  cursor: pointer;
+  font-weight: 500;
+  margin-left: 8px;
+  color: #00aeef;
+}

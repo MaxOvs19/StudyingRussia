@@ -1,0 +1,835 @@
+@import url(css/blocks/header.css);
+@import url(css/blocks/footer.css);
+@import url(css/blocks/MediaExpedition.css);
+@import url(css/blocks/SlPartners.css);
+@import url(css/blocks/projectTeam.css);
+@import url(css/blocks/TextBlock.css);
+@import url(css/blocks/FinalStageWinners.css);
+@import url(css/blocks/item-event.css);
+@import url(css/blocks/popupBox.css);
+@import url(css/blocks/burgerMenu.css);
+@import url(css/blocks/logoSponsors.css);
+@import url(css/blocks/registrationTime.css);
+@import url(css/blocks/timeSpace.css);
+@import url(css/blocks/experts.css);
+@import url(css/blocks/schoolRulesBlock.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+html,
+body {
+  height: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Main Options */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.main {
+  flex: 1 0 auto;
+}
+.container {
+  display: flex;
+  max-width: 1138px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+/* Selaction timetable */
+.timetable-block,
+.item-table,
+.timetable,
+.data-table {
+  display: flex;
+  font-family: TT Hoves;
+}
+.timetable-title {
+  font-size: 30px;
+  line-height: 42px;
+  margin-bottom: 40px;
+  color: #343434;
+}
+.timetable {
+  margin-top: 130px;
+}
+.timetable-block {
+  width: 100%;
+  margin-bottom: 120px;
+}
+.item-table {
+  flex-wrap: wrap;
+  width: 75%;
+}
+
+/* ///// */
+.data-table {
+  flex-direction: column;
+  width: 165px;
+  height: 120px;
+  margin-right: 29px;
+  margin-bottom: 29px;
+  padding: 24px 0 0 24px;
+
+  background: #ffffff;
+  border: 0.5px solid #00aeef;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.data-table:hover,
+.data-table:hover p,
+.data-table:hover h4,
+.data-table:focus,
+.data-table:focus p,
+.data-table:focus h4 {
+  cursor: pointer;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.data-table:focus,
+.data-table:hover {
+  background: #00aeef;
+}
+
+.data-table--passiv {
+  background: #ffffff;
+}
+.dt--activ {
+  color: red !important;
+  background-color: #00aeef;
+}
+.data-table p {
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #343434;
+}
+.data-table h4 {
+  font-size: 20px;
+  line-height: 28px;
+
+  color: #00aeef;
+}
+
+/* Selaction Text block */
+.online-quiz-container {
+  margin-top: 140px;
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+}
+.online-quiz-container h2 {
+  font-size: 30px;
+  width: 80%;
+  line-height: 40px;
+  align-items: center;
+  color: #343434;
+}
+.text-block-left,
+.text-block-right,
+.quiz-text-block {
+  display: flex;
+}
+.quiz-text-block {
+  margin-top: 40px;
+  font-size: 20px;
+  flex-direction: row;
+  text-align: justify;
+}
+.text-block-left {
+  padding-right: 48px;
+
+  width: 356px;
+  height: 265px;
+}
+.text-block-right {
+  width: 745px;
+  height: 203px;
+}
+
+/* Responsive*/
+
+/* 992px - 1200px */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 800px;
+  }
+
+  /* Options - logo sponsors */
+  .container-body {
+    width: 800px;
+  }
+  .body-top p {
+    font-size: 39px;
+    padding-top: 30px;
+    padding-left: 57px;
+    width: 360px;
+  }
+  .body-top img {
+    width: 324px;
+    height: 173px;
+  }
+  .body-center {
+    padding-left: 38px;
+  }
+  .body-bottom {
+    width: 800px;
+    padding-left: 15px;
+  }
+
+  /*Options - MediaExpedition */
+  .container-event {
+    padding-top: 60px;
+  }
+  .event-item {
+    margin: 10px auto;
+  }
+  .text-item {
+    font-size: 16px;
+  }
+
+  /* Selection - registration-time  */
+
+  .block-registr {
+    margin-top: 75px;
+  }
+  .registr {
+    padding-left: 22px;
+  }
+  .registr p {
+    width: 250px;
+    margin-bottom: 15px;
+    font-size: 21px;
+  }
+  .btn-registr {
+    width: 165px;
+  }
+  .btn-registr a {
+    font-size: 15px;
+  }
+  .timer span,
+  .countUsers span {
+    width: 39px;
+    height: 22px;
+    font-size: 22px;
+  }
+  .dataName {
+    justify-content: space-around;
+  }
+  .countUsers {
+    width: 42px;
+    height: 31.7px;
+    margin: 30px 0px 29px 0px;
+  }
+  .timeToEnd {
+    width: 270px;
+    margin-left: 10px;
+  }
+  .time-text {
+    text-align: center;
+  }
+
+  /*Options  Time-space*/
+  .title-block {
+    font-size: 18px;
+  }
+  .collum-item p {
+    font-size: 21px;
+  }
+  .item-data {
+    margin-right: 10px;
+  }
+  .img-icon img {
+    width: 81%;
+  }
+  .img-icon {
+    right: 39px;
+    top: 70px;
+  }
+  .event-block {
+    margin-bottom: 55px;
+  }
+  /* Experts Options*/
+  .experts {
+    display: flex;
+    height: auto;
+  }
+  .container-experts {
+    flex-direction: column;
+  }
+  .selaction-experts {
+    justify-content: center;
+  }
+  .experts-item {
+    margin-right: 0;
+    margin-bottom: 35px;
+  }
+
+  /* timetable Options*/
+  .data-table {
+    width: 134px;
+    height: 111px;
+    padding: 23px 0 0 22px;
+  }
+  .data-table p {
+    font-size: 15px;
+  }
+  .data-table h4 {
+    font-size: 18px;
+  }
+  .timetable-block {
+    margin-bottom: 70px;
+  }
+
+  /* Options Final Stage Winners */
+  .content-block {
+    flex-direction: column;
+  }
+
+  .video-item {
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  .winners-container h2 {
+    width: 63%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .title-item {
+    flex-direction: column;
+    text-align: center;
+  }
+  /* winners-slider */
+  .winners-slider {
+    display: none;
+  }
+  /* Options School Rules */
+  .img-list img {
+    height: 30%;
+    width: 5%;
+  }
+  .link-block img {
+    height: 62%;
+    width: 4%;
+  }
+  /* Partners Options*/
+  .block-img img {
+    padding-right: 80px;
+  }
+
+  /* Footer Options */
+  .footerItem-icon img {
+    padding: 13px;
+  }
+  .footerItem {
+    padding-right: 40px;
+  }
+}
+
+/*768px - 992px*/
+@media (max-width: 992px) {
+  .container {
+    max-width: 650px;
+  }
+
+  /* Options logo sponsors  */
+  .container-body {
+    width: 650px;
+  }
+  .body-top p {
+    font-size: 35px;
+    padding-top: 26px;
+    padding-left: 33px;
+    width: 280px;
+  }
+  .body-top img {
+    width: 310px;
+    height: 167px;
+    padding-right: 0;
+    padding-top: 39px;
+  }
+  .body-center img {
+    padding-left: 0px !important;
+  }
+  .body-bottom {
+    width: 650px;
+    padding-left: 15px;
+  }
+  .text-item p {
+    padding-right: 12px !important;
+    width: 310px !important;
+    height: 512px !important;
+  }
+
+  /*  Options registration-time */
+  .registration-time .container {
+    max-width: 100%;
+  }
+
+  /* Options Time-space*/
+  .event-block {
+    margin-top: 55px;
+  }
+  .collum-item {
+    height: 145px;
+  }
+  .collum-item p {
+    font-size: 16px;
+  }
+  .item-data {
+    width: 77px;
+    height: 94px;
+    background-size: 77px 95px;
+  }
+
+  .item-data p {
+    line-height: 20px;
+    padding-right: 6px;
+  }
+  .img-icon {
+    right: 39px;
+    top: 56px;
+  }
+
+  /* Options data-table */
+  .data-table {
+    width: 117px;
+    height: 93px;
+    padding: 17px 0 0 13px;
+    margin: 0px 7px 0 0;
+  }
+
+  /* Options School Rules  */
+  .schoolRul-img img {
+    width: 233px;
+  }
+  /* Options Text block */
+  .quiz-text-block {
+    font-size: 18px;
+  }
+  .block-img {
+    margin-bottom: 90px;
+  }
+  .block-img img {
+    padding-right: 9px;
+  }
+  /* Footer Options */
+  .wrapper-footer {
+    margin-top: 50px;
+  }
+  .footerItem-icon {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footerItem-icon img {
+    padding: 8px;
+  }
+}
+
+/*576px - 768px*/
+@media (max-width: 768px) {
+  .container {
+    max-width: 576px;
+    margin: 0 auto;
+  }
+
+  /* Options Header */
+  .header {
+    max-width: 100%;
+  }
+  .header-logo {
+    margin-left: 15px;
+  }
+
+  /* Options logo sponsors */
+  .container-body {
+    width: 576px;
+  }
+  .body-top p {
+    font-size: 35px;
+
+    padding-left: 25px;
+    width: 261px;
+    font-size: 34px;
+  }
+  .body-top img {
+    width: 264px;
+    height: auto;
+  }
+  .body-center {
+    padding-left: 0;
+  }
+  .body-bottom {
+    width: 576px;
+    padding-left: 0;
+    margin-top: 18px;
+  }
+  .text-block {
+    max-width: 575px;
+  }
+  .text-title {
+    font-size: 16px;
+    padding-left: 5px;
+  }
+  .text-item {
+    font-size: 14px;
+    padding-left: 5px;
+  }
+  .text-item p {
+    width: 271px !important;
+  }
+
+  /* Options  registr-time*/
+  .block-registr {
+    margin-top: 35px;
+    flex-direction: column;
+    height: auto;
+    background-size: cover;
+    align-items: center;
+  }
+  .registr {
+    margin-top: 15px;
+    padding-left: 0px;
+    align-items: center;
+    text-align: center;
+  }
+  .timeToEnd {
+    margin-left: 0;
+  }
+  .time-text {
+    padding-top: 40px;
+  }
+  .numberToRegistr {
+    margin: 19px 0 15px 0px;
+  }
+
+  /* Options  time-space*/
+  .title-block {
+    text-align: center;
+  }
+  .img-icon img {
+    width: 65%;
+  }
+  .img-icon {
+    right: 6px;
+    top: 56px;
+  }
+
+  /* Options  experts*/
+  .experts {
+    justify-content: center;
+  }
+  /* Options  timetable*/
+  .timetable-title {
+    text-align: center;
+  }
+  .item-table {
+    justify-content: space-evenly;
+    width: 65%;
+  }
+  .data-table {
+    margin-bottom: 5px;
+  }
+  .itemContent {
+    margin-right: 15px;
+  }
+
+  /* Options  schoolRul*/
+  .schoolRul-img img {
+    width: 216px;
+  }
+  .img-list img {
+    height: 40%;
+    width: 9%;
+  }
+  /* Options online-quiz */
+  .online-quiz-container h2 {
+    text-align: center;
+    width: 100%;
+  }
+  /* Options project-team */
+  .project-team {
+    margin-top: 50px;
+  }
+  .project-team-block {
+    margin-bottom: 80px;
+  }
+  .row-block h4 {
+    font-size: 18px;
+  }
+  .row-block p {
+    font-size: 14px;
+  }
+
+  /* Options  partners*/
+  .block-img img {
+    padding-right: 9px;
+    margin-top: 20px;
+  }
+
+  /* Options  footer*/
+  .footerItem {
+    padding-right: 12px;
+  }
+
+  /* Options Popup */
+  .popap__content {
+    padding: 73px 35px 75px 35px;
+  }
+}
+
+/*320px - 576px*/
+@media (max-width: 576px) {
+  .navigation {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+  }
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .container-body {
+    width: 100%;
+    height: auto;
+    flex-wrap: nowrap;
+  }
+  /* Options Logo sponsors */
+  .container-logo {
+    display: flex;
+    height: auto;
+  }
+  .body-top {
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+  }
+  .body-top p {
+    padding-left: 0px;
+  }
+  .body-center img {
+    width: 167px !important;
+    height: auto !important;
+  }
+  .body-center {
+    justify-content: center;
+  }
+  .body-bottom {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 18px;
+  }
+  .body-bottom img {
+    padding-top: 10px;
+  }
+
+  /*Options media-expedition */
+  .event-item {
+    flex-direction: column !important;
+    text-align: center;
+  }
+  .text-title {
+    font-size: 14px;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .text-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-item p {
+    width: 305px !important;
+    height: auto !important;
+    margin-bottom: 25px;
+  }
+
+  /* Options time-space */
+  .item-data {
+    margin: 0 0px 0 5px;
+    width: 90px;
+    height: 95px;
+  }
+  .item-data p {
+    justify-content: center;
+  }
+  .collum-item p {
+    width: 87%;
+    font-size: 14px;
+  }
+
+  /* Options experts */
+  .container-experts {
+    align-items: center;
+  }
+  .experts-item {
+    width: 300px;
+  }
+  .item__img img {
+    width: 100%;
+  }
+
+  /* Options timetable */
+  .timetable-block {
+    flex-direction: column-reverse;
+  }
+  .itemContent {
+    margin-right: 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .item-table {
+    margin-top: 15px;
+    width: 100%;
+  }
+  .winners-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .participant-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .winners-container h2 {
+    width: 73%;
+  }
+  .video-item {
+    width: 100%;
+  }
+  .video-item a img {
+    width: 100%;
+  }
+  .videoIcon {
+    margin-top: 18%;
+    margin-left: 38%;
+  }
+
+  /* Options school Rules */
+  .schoolRul-container {
+    margin-top: 50px;
+    flex-direction: column;
+  }
+  .schoolRul-img {
+    justify-content: center;
+  }
+  .schoolRul-block {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .img-list img {
+    width: 8%;
+    height: 32%;
+  }
+
+  /*  Options online-quiz*/
+  .quiz-text-block {
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .text-block-left,
+  .text-block-right {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 15px 0 15px 0;
+  }
+
+  /* Options  project-team*/
+  .project-team {
+    margin-top: 0;
+  }
+  .project-team-block {
+    text-align: center;
+  }
+  .row-block {
+    margin-top: 25px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img-block {
+    margin: 5px 0 5px 0;
+  }
+
+  /*  Options partners */
+  .partners {
+    text-align: center;
+  }
+  .block-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .block-img img {
+    padding-right: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  /* Options Footer */
+  .footer {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+  }
+  .text-title-footer {
+    justify-content: center;
+  }
+  .container-footer {
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .footerItem-icon {
+    flex-direction: row;
+  }
+  .footerItem {
+    margin-bottom: 25px;
+    align-items: center;
+  }
+  .footerItem-icon {
+    justify-content: space-between;
+  }
+
+  /* Options popap */
+
+  .popap__content {
+    width: 100%;
+    padding: 40px 0px 35px 0px;
+  }
+  .popap__title h2 {
+    text-align: center;
+    font-size: 21px;
+  }
+  .search-popap__input,
+  .popap__title {
+    width: 300px;
+  }
+  .popap__submit {
+    width: 90%;
+  }
+  .popap__close {
+    right: 13px;
+    top: 13px;
+
+    height: 24px;
+    width: 24px;
+    background-size: cover;
+  }
+}
