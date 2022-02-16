@@ -1,2 +1,2 @@
-# StudyingRussiaTestProject
-StudyingRussia(TestProject)
+# StudyingRussia
+StudyingRussia
